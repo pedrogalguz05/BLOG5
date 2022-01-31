@@ -17,6 +17,10 @@ Route::get('/saludo', function () {
     return view('welcome');
 });
 
-Route::get('/inicio', function () {
-    return view('inicio');
+Route::get('/index', function () {
+    return view('index');
 })->name('inicio');
+
+Route::get('/generic', function () {
+    return view('generic');
+})->name('TEMA 1');
