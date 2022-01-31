@@ -6,11 +6,11 @@
 -->
 <html>
 	<head>
-		<title>TEMA 4</title>
+		<title>TEMA 9</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="/css/main.css" />
+		<noscript><link rel="stylesheet" href="/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
 		<!-- Wrapper -->
@@ -55,11 +55,22 @@
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
-							<h1>SISTEMAS DE COMPUTADORAS CENTRALES Y DEDICADAS.</h1>
-							<span class="image main"><img src="images/foto4.jpeg" alt="" /></span>
-							<p>Una computadora central o mainframe es una computadora grande, potente y costosa usada principalmente por una gran compañía para el procesamiento de una gran cantidad de datos; por ejemplo, para el procesamiento de transacciones bancarias.</p>
-
-                            <p>Un servidor dedicado es un equipo informático físico que destina todos sus recursos a proporcionar información y atender las peticiones de otro ordenador (cliente) que ha contratado sus servicios. Por tanto, a diferencia de un servidor compartido, el dedicado trabaja en exclusiva para un solo cliente.</P>
+							<h1>PROCESO DE DIAGRAMACIÓN DE COMPONENTES DE LA ARQUITECTURA CLIENTE/SERVIDOR.</h1>
+							<span class="image main"><img src="images/foto9.jpeg" alt="" /></span>
+							<p>Patrones de Diseño (GRASP) Los patrones de diseño son la base para la búsqueda de soluciones a problemas comunes en el desarrollo de software y para lograr una mayor calidad en el diseño.</p>
+							<p>Durante el desarrollo del sistema se utilizaron patrones básicos de asignación de responsabilidades como Patrones Generales de Software para Asignar Responsabilidades (General Responsability Asignment Software Patterns) GRASP.</p>
+							<p>El sistema está diseñado bajo una arquitectura cliente-servidor haciendo uso de patrón arquitectónico Modelo-Vista-Controlador.</p>
+							<p>se clasifican en:<br>
+								Arquitecturas monolíticas (1 capa):<br>
+								- En esta configuración se compone de un microcomputador y un terminal directamente conectados.<br><br>
+								Arquitecturas de dos capas:<br>
+								- El cliente se comunica directamente con un servidor de bases de datos.<br><br>
+								Arquitecturas de tres capas:<br>
+								Una arquitectura multicapa se define por tanto por las siguientes tres capas de componentes:<br>
+								- Un componente front-end que es el responsable de proporcionar la lógica de presentación.<br>
+								- Un componente back-end que proporciona acceso a servicios dedicados, tales como un servidor de bases de datos.<br>
+								- Un componente que hace las funciones de capa intermediaria (middl tier) que permite a los usuarios compartir y controlar la lógica de negocio mediante su aislamiento de la aplicación real.
+								</p>
 							</div>
 					</div>
 
@@ -85,11 +96,11 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+			<script src="/js/jquery.min.js"></script>
+			<script src="/js/browser.min.js"></script>
+			<script src="/js/breakpoints.min.js"></script>
+			<script src="/js/util.js"></script>
+			<script src="/js/main.js"></script>
 
 	</body>
 </html>

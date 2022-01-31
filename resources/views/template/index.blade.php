@@ -9,8 +9,8 @@
 		<title>UNIDAD 1</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="/css/main.css" />
+		<noscript><link rel="stylesheet" href="/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
 		<!-- Wrapper -->
@@ -40,7 +40,7 @@
 					<h2>MENU</h2>
 					<ul>
 						<li><a href="index.html">INICIO</a></li>
-						<li><a href="generic.html">TEMA 1</a></li>
+						<li><a href="{{route('generic')}}">TEMA 1</a></li>
 						<li><a href="generic1.html">TEMA 2</a></li>
 						<li><a href="generic2.html">TEMA 3</a></li>
 						<li><a href="generic3.html">TEMA 4</a></li>
@@ -186,11 +186,11 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+			<script src="/js/jquery.min.js"></script>
+			<script src="/js/browser.min.js"></script>
+			<script src="/js/breakpoints.min.js"></script>
+			<script src="/js/util.js"></script>
+			<script src="/js/main.js"></script>
 
 	</body>
 </html>

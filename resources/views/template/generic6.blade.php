@@ -6,11 +6,11 @@
 -->
 <html>
 	<head>
-		<title>TEMA 9</title>
+		<title>TEMA 7</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="/css/main.css" />
+		<noscript><link rel="stylesheet" href="/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
 		<!-- Wrapper -->
@@ -55,23 +55,16 @@
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
-							<h1>PROCESO DE DIAGRAMACIÓN DE COMPONENTES DE LA ARQUITECTURA CLIENTE/SERVIDOR.</h1>
-							<span class="image main"><img src="images/foto9.jpeg" alt="" /></span>
-							<p>Patrones de Diseño (GRASP) Los patrones de diseño son la base para la búsqueda de soluciones a problemas comunes en el desarrollo de software y para lograr una mayor calidad en el diseño.</p>
-							<p>Durante el desarrollo del sistema se utilizaron patrones básicos de asignación de responsabilidades como Patrones Generales de Software para Asignar Responsabilidades (General Responsability Asignment Software Patterns) GRASP.</p>
-							<p>El sistema está diseñado bajo una arquitectura cliente-servidor haciendo uso de patrón arquitectónico Modelo-Vista-Controlador.</p>
-							<p>se clasifican en:<br>
-								Arquitecturas monolíticas (1 capa):<br>
-								- En esta configuración se compone de un microcomputador y un terminal directamente conectados.<br><br>
-								Arquitecturas de dos capas:<br>
-								- El cliente se comunica directamente con un servidor de bases de datos.<br><br>
-								Arquitecturas de tres capas:<br>
-								Una arquitectura multicapa se define por tanto por las siguientes tres capas de componentes:<br>
-								- Un componente front-end que es el responsable de proporcionar la lógica de presentación.<br>
-								- Un componente back-end que proporciona acceso a servicios dedicados, tales como un servidor de bases de datos.<br>
-								- Un componente que hace las funciones de capa intermediaria (middl tier) que permite a los usuarios compartir y controlar la lógica de negocio mediante su aislamiento de la aplicación real.
-								</p>
-							</div>
+							<h1>PROTOCOLO DE COMUNICACIÓN EN RED.</h1>
+							<span class="image main"><img src="images/foto7.jpeg" alt="" /></span>
+							<h2>RECONOCER PROTOCOLOS DE COMUNICACIÓN EN RED</h2>
+                            <P>Un protocolo es un conjunto de reglas: los protocolos de red son estándares y políticas formales, conformados por restricciones, procedimientos y formatos que definen el intercambio de paquetes de información para lograr la comunicación entre dos servidores o más dispositivos a través de una red.<br>
+                                Un grupo de protocolos de red que trabajan juntos en los niveles superior e inferior comúnmente se les denomina familia de protocolos.<br>
+                                TIPOS DE PROTOCOLOS:<br>
+                                - Protocolos de comunicación de red: protocolos de comunicación de paquetes básicos como TCP / IP y HTTP.<br>
+                                - Protocolos de seguridad de red: implementan la seguridad en las comunicaciones de red entre servidores, incluye HTTPS, SSL y SFTP.<br>
+                                - Protocolos de gestión de red: proporcionan mantenimiento y gobierno de red, incluyen SNMP e ICMP. </P>
+                            </div>
 					</div>
 
 				<!-- Footer -->
@@ -96,11 +89,11 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+			<script src="/js/jquery.min.js"></script>
+			<script src="/js/browser.min.js"></script>
+			<script src="/js/breakpoints.min.js"></script>
+			<script src="/js/util.js"></script>
+			<script src="/js/main.js"></script>
 
 	</body>
 </html>

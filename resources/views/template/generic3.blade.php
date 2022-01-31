@@ -6,11 +6,11 @@
 -->
 <html>
 	<head>
-		<title>TEMA 5</title>
+		<title>TEMA 4</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="/css/main.css" />
+		<noscript><link rel="stylesheet" href="/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
 		<!-- Wrapper -->
@@ -55,11 +55,11 @@
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
-							<h1>SISTEMAS DE CONEXIÓN LIBRE Y A TRAVÉZ DE REDES.</h1>
-							<span class="image main"><img src="images/foto5.jpeg" alt="" /></span>
-							<p>En muchos de los casos el usuario obtiene la información que necesita de alguna computadora de servicio. Estas computadoras de escritorio se conectan a las computadoras de servicio empleando software que permite la emulación de algún tipo de terminal.</p>
-                            <h2>Cómputo a través de redes</h2>
-							<p>Esta es la era que esta basada en el concepto de redes de computadoras, en la que la información reside en una o varias computadoras, los usuarios de esta información hacen uso de computadoras para laborar y todas ellas se encuentran conectadas entre si. Esto brinda la posibilidad de que todos los usuarios puedan acceder a la información de todas las computadoras y a la vez que los diversos sistemas intercambien información.</p>
+							<h1>SISTEMAS DE COMPUTADORAS CENTRALES Y DEDICADAS.</h1>
+							<span class="image main"><img src="images/foto4.jpeg" alt="" /></span>
+							<p>Una computadora central o mainframe es una computadora grande, potente y costosa usada principalmente por una gran compañía para el procesamiento de una gran cantidad de datos; por ejemplo, para el procesamiento de transacciones bancarias.</p>
+
+                            <p>Un servidor dedicado es un equipo informático físico que destina todos sus recursos a proporcionar información y atender las peticiones de otro ordenador (cliente) que ha contratado sus servicios. Por tanto, a diferencia de un servidor compartido, el dedicado trabaja en exclusiva para un solo cliente.</P>
 							</div>
 					</div>
 
@@ -85,11 +85,11 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+			<script src="/js/jquery.min.js"></script>
+			<script src="/js/browser.min.js"></script>
+			<script src="/js/breakpoints.min.js"></script>
+			<script src="/js/util.js"></script>
+			<script src="/js/main.js"></script>
 
 	</body>
 </html>

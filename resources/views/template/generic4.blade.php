@@ -6,11 +6,11 @@
 -->
 <html>
 	<head>
-		<title>TEMA 7</title>
+		<title>TEMA 5</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="/css/main.css" />
+		<noscript><link rel="stylesheet" href="/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
 		<!-- Wrapper -->
@@ -55,16 +55,12 @@
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
-							<h1>PROTOCOLO DE COMUNICACIÓN EN RED.</h1>
-							<span class="image main"><img src="images/foto7.jpeg" alt="" /></span>
-							<h2>RECONOCER PROTOCOLOS DE COMUNICACIÓN EN RED</h2>
-                            <P>Un protocolo es un conjunto de reglas: los protocolos de red son estándares y políticas formales, conformados por restricciones, procedimientos y formatos que definen el intercambio de paquetes de información para lograr la comunicación entre dos servidores o más dispositivos a través de una red.<br>
-                                Un grupo de protocolos de red que trabajan juntos en los niveles superior e inferior comúnmente se les denomina familia de protocolos.<br>
-                                TIPOS DE PROTOCOLOS:<br>
-                                - Protocolos de comunicación de red: protocolos de comunicación de paquetes básicos como TCP / IP y HTTP.<br>
-                                - Protocolos de seguridad de red: implementan la seguridad en las comunicaciones de red entre servidores, incluye HTTPS, SSL y SFTP.<br>
-                                - Protocolos de gestión de red: proporcionan mantenimiento y gobierno de red, incluyen SNMP e ICMP. </P>
-                            </div>
+							<h1>SISTEMAS DE CONEXIÓN LIBRE Y A TRAVÉZ DE REDES.</h1>
+							<span class="image main"><img src="images/foto5.jpeg" alt="" /></span>
+							<p>En muchos de los casos el usuario obtiene la información que necesita de alguna computadora de servicio. Estas computadoras de escritorio se conectan a las computadoras de servicio empleando software que permite la emulación de algún tipo de terminal.</p>
+                            <h2>Cómputo a través de redes</h2>
+							<p>Esta es la era que esta basada en el concepto de redes de computadoras, en la que la información reside en una o varias computadoras, los usuarios de esta información hacen uso de computadoras para laborar y todas ellas se encuentran conectadas entre si. Esto brinda la posibilidad de que todos los usuarios puedan acceder a la información de todas las computadoras y a la vez que los diversos sistemas intercambien información.</p>
+							</div>
 					</div>
 
 				<!-- Footer -->
@@ -89,11 +85,11 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+			<script src="/js/jquery.min.js"></script>
+			<script src="/js/browser.min.js"></script>
+			<script src="/js/breakpoints.min.js"></script>
+			<script src="/js/util.js"></script>
+			<script src="/js/main.js"></script>
 
 	</body>
 </html>
