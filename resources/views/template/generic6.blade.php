@@ -39,17 +39,17 @@
 					<nav id="menu">
 						<h2>Menu</h2>
 						<ul>
-							<li><a href="index.html">INICIO</a></li>
-							<li><a href="generic.html">TEMA 1</a></li>
-							<li><a href="generic1.html">TEMA 2</a></li>
-							<li><a href="generic2.html">TEMA 3</a></li>
-							<li><a href="generic3.html">TEMA 4</a></li>
-							<li><a href="generic4.html">TEMA 5</a></li>
-							<li><a href="generic5.html">TEMA 6</a></li>
-							<li><a href="generic6.html">TEMA 7</a></li>
-							<li><a href="generic7.html">TEMA 8</a></li>
-							<li><a href="generic8.html">TEMA 9</a></li>
-						</ul>
+						<li><a href="{{route('index')}}">INICIO</a></li>
+						<li><a href="{{route('generic')}}">TEMA 1</a></li>
+						<li><a href="{{route('generic1')}}">TEMA 2</a></li>
+						<li><a href="{{route('generic2')}}">TEMA 3</a></li>
+						<li><a href="{{route('generic3')}}">TEMA 4</a></li>
+						<li><a href="{{route('generic4')}}">TEMA 5</a></li>
+						<li><a href="{{route('generic5')}}">TEMA 6</a></li>
+						<li><a href="{{route('generic6')}}">TEMA 7</a></li>
+						<li><a href="{{route('generic7')}}">TEMA 8</a></li>
+						<li><a href="{{route('generic8')}}">TEMA 9</a></li>
+					</ul>
 					</nav>
 
 				<!-- Main -->

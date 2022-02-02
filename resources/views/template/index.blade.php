@@ -39,16 +39,16 @@
 				<nav id="menu">
 					<h2>MENU</h2>
 					<ul>
-						<li><a href="index.html">INICIO</a></li>
+						<li><a href="{{route('index')}}">INICIO</a></li>
 						<li><a href="{{route('generic')}}">TEMA 1</a></li>
-						<li><a href="generic1.html">TEMA 2</a></li>
-						<li><a href="generic2.html">TEMA 3</a></li>
-						<li><a href="generic3.html">TEMA 4</a></li>
-						<li><a href="generic4.html">TEMA 5</a></li>
-						<li><a href="generic5.html">TEMA 6</a></li>
-						<li><a href="generic6.html">TEMA 7</a></li>
-						<li><a href="generic7.html">TEMA 8</a></li>
-						<li><a href="generic8.html">TEMA 9</a></li>
+						<li><a href="{{route('generic1')}}">TEMA 2</a></li>
+						<li><a href="{{route('generic2')}}">TEMA 3</a></li>
+						<li><a href="{{route('generic3')}}">TEMA 4</a></li>
+						<li><a href="{{route('generic4')}}">TEMA 5</a></li>
+						<li><a href="{{route('generic5')}}">TEMA 6</a></li>
+						<li><a href="{{route('generic6')}}">TEMA 7</a></li>
+						<li><a href="{{route('generic7')}}">TEMA 8</a></li>
+						<li><a href="{{route('generic8')}}">TEMA 9</a></li>
 					</ul>
 				</nav>
 
@@ -65,7 +65,7 @@
 									<span class="image">
 										<img src="images/foto2.jpeg" alt="" />
 									</span>
-									<a href="generic.html">
+									<a href="{{route('generic')}}">
 										<h2>SISTEMAS DE INFORMACIÓN.</h2>
 										<div class="content">
 											<p>Existen varias formas especializadas o aplicadas de SI, dependiendo del campo puntual y de las funciones específicas que se esperan de cada uno, a continuación enlistaremos algunas.</p>
@@ -76,7 +76,7 @@
 									<span class="image">
 										<img src="images/foto01.jpeg" alt="" />
 									</span>
-									<a href="generic1.html">
+									<a href="{{route('generic1')}}">
 										<h2>EVOLUCIÓN DE LOS SISTEMAS DE INFORMACIÓN.</h2>
 										<div class="content">
 											<p>Se hablará desde los años 1950 hasta la actualidad donde se dará un pequeño resumen de lo mas sobresaliente de estas fechas.</p>
@@ -87,7 +87,7 @@
 									<span class="image">
 										<img src="images/foto03.jpeg" alt="" />
 									</span>
-									<a href="generic2.html">
+									<a href="{{route('generic2')}}">
 										<h2>CONCEPTOS DE CLIENTE/SERVIDOR.</h2>
 										<div class="content">
 											<p>Se hablara sobre el procesamiento cooperativo de la información por medio de un conjunto de procesadores, en el cual múltiples clientes, distribuidos geográficamente, solicitan requerimientos a uno o más servidores centrales.</p>
@@ -98,7 +98,7 @@
 									<span class="image">
 										<img src="images/foto04.jpeg" alt="" />
 									</span>
-									<a href="generic3.html">
+									<a href="{{route('generic3')}}">
 										<h2>SISTEMAS DE COMPUTADORAS CENTRALES Y DEDICADAS.</h2>
 										<div class="content">
 											<p>Se hablara de los sistemas centrales y dedicados, uno de ellos s una computadora utilizada principalmente por grandes organizaciones para aplicaciones críticas, procesamiento de datos masivos. Y el segundo es un equipo informático físico que destina todos sus recursos a proporcionar información y atender las peticiones de otro ordenador.</p>
@@ -109,7 +109,7 @@
 									<span class="image">
 										<img src="images/foto5.jpeg" alt="" />
 									</span>
-									<a href="generic4.html">
+									<a href="{{route('generic4')}}">
 										<h2>SISTEMAS DE CONEXIÓN LIBRE Y A TRAVÉZ DE REDES.</h2>
 										<div class="content">
 											<p>Tratara de los sistemas de conexión libre donde se solicita de una computadora de servicio y sobre el computo a través de redes donde la informacion que reside en una o varias computadoras, los usuarios hacen el uso de esta misma.</p>
@@ -120,7 +120,7 @@
 									<span class="image">
 										<img src="images/foto6.jpeg" alt="" />
 									</span>
-									<a href="generic5.html">
+									<a href="{{route('generic5')}}">
 										<h2>SISTEMAS CON ARQUITECTURA CLIENTE/SERVIDOR.</h2>
 										<div class="content">
 											<p>Los sistemas hacen referencia a clientes que ejecutan distintos tipos de peticiones a otros programas.</p>
@@ -131,7 +131,7 @@
 									<span class="image">
 										<img src="images/foto07.jpeg" alt="" />
 									</span>
-									<a href="generic6.html">
+									<a href="{{route('generic6')}}">
 										<h2>PROTOCOLOS DE COMUNICACIÓN EN RED.</h2>
 										<div class="content">
 											<p>Los protocolos son estándares y políticas que definen el intercambio de paquetes de información, esto con el fin de lograr la comunicación entre servidores.</p>
@@ -142,7 +142,7 @@
 									<span class="image">
 										<img src="images/foto8.jpeg" alt="" />
 									</span>
-									<a href="generic7.html">
+									<a href="{{route('generic7')}}">
 										<h2>CLASIFICACIÓN DE LOS SISTEMAS DE INFORMACIÓN DE ACUERDO A SU ARQUITECTURA.</h2>
 										<div class="content">
 											<p>La estructura de la arquitectura varía en función de las necesidades de las empresas y del momento histórico en el que se introdujeron.</p>
@@ -153,7 +153,7 @@
 									<span class="image">
 										<img src="images/foto09.jpeg" alt="" />
 									</span>
-									<a href="generic8.html">
+									<a href="{{route('generic8')}}">
 										<h2>PROCESO DE DIAGRAMACIÓN DE COMPONENTES DE LA ARQUITECTURA CLIENTE/SERVIDOR.</h2>
 										<div class="content">
 											<p>Aqui explicaremos cual es el proceso de diagramacion de la arquitectura cliente/servidor.</p>
