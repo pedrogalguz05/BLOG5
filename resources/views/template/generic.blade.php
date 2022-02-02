@@ -39,7 +39,7 @@
 					<nav id="menu">
 						<h2>Menu</h2>
 						<ul>
-						<li><a href="{{route('index')}}">INICIO</a></li>
+						<li><a href="{{route('inicio')}}">INICIO</a></li>
 						<li><a href="{{route('generic')}}">TEMA 1</a></li>
 						<li><a href="{{route('generic1')}}">TEMA 2</a></li>
 						<li><a href="{{route('generic2')}}">TEMA 3</a></li>
